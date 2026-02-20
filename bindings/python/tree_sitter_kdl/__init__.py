@@ -1,4 +1,4 @@
-"""Tree-sitter Grammar for kdl"""
+"""Tree-sitter Grammar for KDL"""
 
 from importlib.resources import files as _files
 

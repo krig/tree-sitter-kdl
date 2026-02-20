@@ -7,6 +7,6 @@ final class TreeSitterKdlTests: XCTestCase {
         let parser = Parser()
         let language = Language(language: tree_sitter_kdl())
         XCTAssertNoThrow(try parser.setLanguage(language),
-                         "Error loading Kdl grammar")
+                         "Error loading KDL grammar")
     }
 }

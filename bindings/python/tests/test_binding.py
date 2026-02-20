@@ -9,4 +9,4 @@ class TestLanguage(TestCase):
         try:
             Parser(Language(tree_sitter_kdl.language()))
         except Exception:
-            self.fail("Error loading Kdl grammar")
+            self.fail("Error loading KDL grammar")

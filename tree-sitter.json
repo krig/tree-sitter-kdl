@@ -4,6 +4,7 @@
     {
       "name": "kdl",
       "camelcase": "KDL",
+      "title": "KDL",
       "scope": "source.kdl",
       "path": ".",
       "file-types": [
@@ -11,13 +12,19 @@
       ],
       "highlights": [
         "queries/highlights.scm"
+      ],
+      "injections": [
+        "queries/injections.scm"
+      ],
+      "locals": [
+        "queries/locals.scm"
       ]
     }
   ],
   "metadata": {
     "version": "0.2.0",
     "license": "MIT",
-    "description": "Tree-sitter Grammar for kdl",
+    "description": "Tree-sitter Grammar for KDL",
     "authors": [
       {
         "name": "Amaan Qureshi"
@@ -30,7 +37,7 @@
       }
     ],
     "links": {
-      "repository": "git+https://github.com/krig/tree-sitter-kdl.git"
+      "repository": "https://github.com/krig/tree-sitter-kdl"
     }
   },
   "bindings": {
