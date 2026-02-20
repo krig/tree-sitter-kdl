@@ -1,0 +1,46 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "kdl",
+      "camelcase": "KDL",
+      "scope": "source.kdl",
+      "path": ".",
+      "file-types": [
+        "kdl"
+      ],
+      "highlights": [
+        "queries/highlights.scm"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "0.2.0",
+    "license": "MIT",
+    "description": "Tree-sitter Grammar for kdl",
+    "authors": [
+      {
+        "name": "Amaan Qureshi"
+      },
+      {
+        "name": "Andrew Hlynskyi"
+      },
+      {
+        "name": "Kristoffer Grönlund"
+      }
+    ],
+    "links": {
+      "repository": "git+https://github.com/krig/tree-sitter-kdl.git"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "java": false,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": true
+  }
+}

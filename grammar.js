@@ -53,7 +53,7 @@ const ANNOTATION_BUILTINS = [
   'base64',
 ];
 
-module.exports = grammar({
+export default grammar({
   name: 'kdl',
 
   conflicts: $ => [
